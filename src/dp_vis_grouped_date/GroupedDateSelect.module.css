@@ -1,0 +1,37 @@
+.Select {
+    padding-left: 11px;
+    padding-right: 32px;
+    border-radius: 3px;
+    outline: 0;
+    height: 27px;
+    padding: 0 11px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: var(--gd-button-dropShadow, 0 1px 1px 0) var(--gd-shadow-color, rgba(20, 56, 93, 0.15));
+    color: var(--gd-palette-complementary-7, #778491);
+    background: var(--gd-palette-complementary-0, #fcfcfd);
+    border-color: var(--gd-palette-complementary-4, #ccd8e2);
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.Select:focus {
+    box-shadow: var(--gd-button-dropShadow, 0 0 3px 1px) rgba(69, 199, 239, 0),
+        var(--gd-button-dropShadow, 0 1px 2px 0) var(--gd-shadow-color, rgba(20, 56, 93, 0.15)),
+        inset 0 -1px 0 0 var(--gd-shadow-color, rgba(177, 193, 209, 0.6));
+    border-color: var(--gd-palette-primary-base-t25, rgba(20, 178, 226, 0.75));
+    color: var(--gd-palette-complementary-7, #6d7680);
+}
+
+.Select:hover {
+    color: var(--gd-palette-complementary-8, #464e56);
+    background: var(--gd-palette-complementary-1, #f5f8fa);
+}
